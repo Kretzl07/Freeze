@@ -8,6 +8,8 @@
 
 body{
     background-color: var(--fundo);
+    margin: 0;
+
 }
 footer{
     background-color: black;
@@ -15,5 +17,6 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    text-align: center;
 
 }
