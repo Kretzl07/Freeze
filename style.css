@@ -9,3 +9,6 @@
 body{
     background-color: var(--fundo);
 }
+footer{
+    background-color: black;
+}
