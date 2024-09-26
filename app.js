@@ -1,4 +1,4 @@
-function criaCartão(categoria, perguntas, resposta){}
+function criaCartão(categoria, perguntas, resposta){
 let container = document.getElementById('container');
 let Cartão = document.createElement('article');
 Cartão.className = 'Cartão';
@@ -14,3 +14,4 @@ Cartão.imerHtml = `
 </div>
 `
 container.appendChild(Cartão);
+}
