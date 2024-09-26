@@ -48,22 +48,22 @@ criaCartão(
     'Como o sistema imunológico atua na defesa do corpo contra doenças?',
     'O sistema imunológico detecta e combate patógenos como bactérias e vírus, utilizando células de defesa, anticorpos e mecanismos de memória para proteger o corpo.')
 
-crieCartão(
+criaCartão(
     'história',
     'Quem foi o primeiro imperador de Roma?',
     'Augusto (também conhecido como Otaviano) foi o primeiro imperador de Roma, governando de 27 a.C. até sua morte em 14 d.C.')
 
-crieCartão(
+criaCartão(
     'história',
     'Qual foi o evento que marcou o início da Idade Média na Europa?',
     'A queda do Império Romano do Ocidente, em 476 d.C., é considerada o evento que marca o início da Idade Média.')
 
-crieCartão(
+criaCartão(
     'história',
     'O que foi a Revolução Industrial?',
     'A Revolução Industrial foi um período de mudanças tecnológicas e econômicas no final do século XVIII e início do século XIX, quando a produção em fábricas e o uso de máquinas se tornaram predominantes, especialmente na Inglaterra.')
 
-crieCartão(
+criaCartão(
     'história',
     'Qual foi a principal causa da Primeira Guerra Mundial?',
     'A principal causa foi o assassinato do arquiduque Franz Ferdinand, herdeiro do trono austro-húngaro, em 1914, o que desencadeou uma série de alianças militares e conflitos entre nações europeias.')
@@ -73,17 +73,17 @@ criaCartão(
     'Quem liderou a luta pela independência da Índia?',
     'Mahatma Gandhi foi o principal líder da luta pela independência da Índia, utilizando métodos de resistência pacífica e desobediência civil.')
 
-crieCartão(
+criaCartão(
     'história',
     'Qual foi o impacto da Revolução Francesa na história mundial?',
     'A Revolução Francesa (1789-1799) teve grande impacto, espalhando ideais de liberdade, igualdade e fraternidade, e influenciando outros movimentos revolucionários ao redor do mundo.')
 
-crieCartão(
+criaCartão(
     'história',
     'Qual foi o tratado que encerrou a Primeira Guerra Mundial?',
     'O Tratado de Versalhes, assinado em 1919, encerrou formalmente a Primeira Guerra Mundial.')
 
-crieCartão(
+criaCartão(
     'história',
     'Quem foi o responsável pela unificação da Alemanha no século XIX?',
     'Otto von Bismarck, chanceler da Prússia, foi o principal arquiteto da unificação alemã, concluída em 1871.')
