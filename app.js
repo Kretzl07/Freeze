@@ -1,17 +1,17 @@
-function criaCartão(categoria, pergunta, resposta){
+function criaCartao(categoria, pergunta, resposta){
 let container = document.getElementById('container');
-let Cartão = document.createElement('article');
-Cartão.className = 'Cartão';
-Cartão.imerHtml = `
-<div class = "Cartão-conteudo">
+let Cartao = document.createElement('article');
+Cartao.className = 'Cartao';
+Cartao.innerHtml = `
+<div class = "Cartao-conteudo">
 <h3> ${categoria} </h3>
-<div class = "Cartão-pergunta">
+<div class = "Cartao-pergunta">
 <p> ${pergunta} </p>
 </div>
-<div class = "Cartão-resposta">
+<div class = "Cartao-resposta">
 <p> ${resposta} </p>
 </div>
 </div>
 `
-container.appendChild(Cartão);
+container.appendChild(Cartao);
 }
