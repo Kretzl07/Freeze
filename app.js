@@ -1,14 +1,14 @@
-function criaCartão(categoria, perguntas, resposta){
+function criaCartão(categoria, pergunta, resposta){
 let container = document.getElementById('container');
 let Cartão = document.createElement('article');
 Cartão.className = 'Cartão';
 Cartão.imerHtml = `
 <div class = "Cartão-conteudo">
 <h3> ${categoria} </h3>
-<div class = "Cartão - pergunta">
+<div class = "Cartão-pergunta">
 <p> ${pergunta} </p>
 </div>
-<div class = "Cartão - resposta">
+<div class = "Cartão-resposta">
 <p> ${resposta} </p>
 </div>
 </div>
