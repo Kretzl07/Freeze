@@ -88,4 +88,6 @@ font-size: 1.4vw;
 
 .cartao-resposta{
     transform: rotateY(180deg);
+    background-color: var(--card-back-color);
+    border: 4px solid var (--destaque);
 }
