@@ -33,7 +33,7 @@ footer{
     margin: 1rem 1rem;
     heigth: 20rem;
     flex-grow: 1;
-    flex-basis: calc(33%-6rem);
+    flex-basis: calc(33% - 6rem);
 }
 
 .Cartao-conteudo{
@@ -67,7 +67,25 @@ font-size: 1.4vw;
     font-weight: 500;
 }
 
-.Cartao-resposta p{
+.cartao-resposta p{
     color: var(--cor--verso-Cartao);
     font-weight: 700;
+}
+
+.cartao:hover .conteudo-cartao{
+    transform: rotateY(180deg);
+}
+
+.Cartao-pergunta,
+.cartao-resposta{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.cartao-resposta{
+    transform: rotateY(180deg);
 }
