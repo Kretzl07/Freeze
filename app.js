@@ -13,5 +13,14 @@ Cartao.innerHTML = `
 </div>
 </div>
 `
+
+let resopostaVisivel = false;
+function viraCartao(){
+    resopostaVisivel = !resopostaVisivel;
+    Cartao.classList.toggle('active', resopostaVisivel);
+}
+Cartao.addEventListener('click', viraCartao)
+
 container.appendChild(Cartao);
+
 }
