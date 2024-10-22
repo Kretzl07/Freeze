@@ -34,3 +34,13 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+#container{
+    display: grid;
+    padding: 2rem; 
+    gap: 3rem;
+}
+
+cartao-conteudo{
+    background-color: var(--cor-frente-cartao);
+}
