@@ -44,5 +44,5 @@ footer{
 cartao-conteudo{
     background-color: var(--cor-frente-cartao);
     border: 1px solid var(--preto);
-    box-shadow: 5px 6px 25px var(--preto);
+    box-shadow: 5px 6px 20px var(--preto);
 }
