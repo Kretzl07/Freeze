@@ -41,13 +41,13 @@ footer{
     gap: 3rem;
 }
 
-cartao-conteudo{
+.cartao-conteudo{
     background-color: var(--cor-frente-cartao);
     border: 1px solid var(--preto);
     box-shadow: 5px 6px 20px var(--preto);
 }
 
-cartao-resposta{
+.cartao-resposta{
     background-color: var(--cor-verso-cartao);
     margin-top: 5px;
     padding: 20px;
