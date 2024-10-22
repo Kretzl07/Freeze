@@ -1,0 +1,36 @@
+:root{
+    --fundo: #21a6ca;
+    --cor-texto: rgb(125, 215, 246);
+    --cor-frente-cartao:#206974;
+    --cor-verso-cartao:     #83edf4;
+    --preto: black;
+    --branco: white;
+    --destaque: #92c0eb;
+    --letras: #050808;
+}
+
+body{
+    background-color: var(--fundo);
+    margin: 0;
+}
+
+header{
+    background-color: var(--preto);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+footer{
+    background-color: var(--preto);
+    color: var(--branco);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
