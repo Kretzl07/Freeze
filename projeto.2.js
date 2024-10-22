@@ -8,7 +8,7 @@ function criaCartao(categoria, pergunta, resposta){
     <div class = "cartao-pergunta">
     <p> ${pergunta} </p>
     </div>
-    <div class = "cartao-resposta" onclick="mostra a resposta">
+    <div class = "cartao-resposta" onclick="mostraaResposta(this)">
     <p> ${resposta} </p>
     </div>
     </div>
